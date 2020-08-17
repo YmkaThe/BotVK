@@ -137,7 +137,7 @@ try:
                                 message = ' Оповестили людей'
                                 for member_id in members_ids:
                                     message += f'[id{member_id}|.]'
-                                # 1- беседа с машей 2- беседа шараги 3- беседа с Ваней  ОБЯЗАТЕЛЬНО ПРАВА АДМИНА!!!!
+                             
                                 vk.messages.send(
                                     peer_id=peer_id,
                                     message=message,
